@@ -1,12 +1,12 @@
 let pass = "✅✅✅Assertion Passed: ";
 let fail = "🛑🛑🛑Assertion Failed: ";
-let equals = " === ";
-let not = " !== ";
+// let equals = " === ";
+// let not = " !== ";
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log(`${pass}` + actual + `${equals}` + expected);
+    console.log(`${pass} ${actual} === ${expected}`);
   } else {
-    console.log(`${fail}` + actual + `${not}` + expected);
+    console.log(`${fail} ${actual} !== ${expected}`);
   }
 };
 
