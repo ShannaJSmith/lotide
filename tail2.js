@@ -8,10 +8,16 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual("Lighthouse labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("same", "same");
-assertEqual("not", "the same");
-assertEqual(5, 5);
-assertEqual(1, 50);
+const tail = function(array) {
+  let newTail = [];
+  for (let i = 1; i < array.length; i++) {
+    newTail.push(array[i]);
+  }
+  return newTail;
+};
 
+const words = ["Yo Yo", "Lighthouse", "Labs"];
+tail(words);
+assertEqual(words.length, 3);
+assertEqual(tail([]));
+console.log(words);

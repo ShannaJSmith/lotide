@@ -17,4 +17,3 @@ tail(words);
 assertEqual(words.length, 3);
 assertEqual(tail([]));
 console.log(words);
-
