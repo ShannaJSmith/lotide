@@ -8,7 +8,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -17,6 +17,6 @@ const eqArrays = function (arr1, arr2) {
       return false;
     }
   } return true;
-}
+};
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); 
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);

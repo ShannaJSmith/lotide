@@ -39,10 +39,10 @@ const eqObjects = function(object1, object2) {
 // //Test Code for Primitives
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
-console.log(eqObjects(ab, ba)); 
+console.log(eqObjects(ab, ba));
 
 const abc = { a: "1", b: "2", c: "3" };
-console.log(eqObjects(ab, abc)); 
+console.log(eqObjects(ab, abc));
 
 console.log(assertEqual(eqObjects(ab, ba), true));
 console.log(assertEqual(eqObjects(ab, abc), false));

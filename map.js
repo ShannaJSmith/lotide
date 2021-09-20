@@ -1,23 +1,23 @@
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
-  for (i = 0; i < arr1.length; i++) {
+  for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
       return false;
     }
   } return true;
-}
+};
 
-const assertArraysEqual = function (actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
-    console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`)
+    console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`);
   } else {
-    console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`)
+    console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
-const characters = ['Inuyasha', 'Sesshomaru', 'Killua', 'Xie Lian', 'Wei Wuxian']
+const characters = ['Inuyasha', 'Sesshomaru', 'Killua', 'Xie Lian', 'Wei Wuxian'];
 
 const map = function(array, callback) {
   const results = [];
@@ -25,7 +25,7 @@ const map = function(array, callback) {
     results.push(callback(item));
   }
   return results;
-}
+};
 
 
 //Tests:
