@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(array) {
-  console.log(array.slice(1));
+  return array.slice(1);
 };
 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
