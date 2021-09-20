@@ -42,3 +42,5 @@ without([1, 2, 3], [1]);
 without(["1", "2", "3"], [1, 2, "3"]);
 without(["Inu", "Kag", "Sess", "Rin", "Kagura"], ["Kagura"]);
 without(["Evil", "Good", "Bad"], ["Evil", "Bad"]);
+
+module.exports = without;

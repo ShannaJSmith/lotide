@@ -42,3 +42,5 @@ assertArraysEqual(results1, ['I', 'S', 'K', 'X', 'W']);
 assertArraysEqual(results2, ['u', 's', 'l', 'e', 'i']);
 assertArraysEqual(results3, [8, 10, 6, 8, 10]);
 assertArraysEqual(results4, [ 'INUYASHA', 'SESSHOMARU', 'KILLUA', 'XIE LIAN', 'WEI WUXIAN' ]);
+
+module.exports = map;

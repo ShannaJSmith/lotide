@@ -49,3 +49,5 @@ assertEqual(actual2, undefined);
 assertEqual(actual3, "Blue Hill");
 
 // 'key' = "blue hill", "noma", etc
+
+module.exports = findKey;
